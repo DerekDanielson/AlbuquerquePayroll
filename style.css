@@ -1,0 +1,340 @@
+#12989A
+#D03815
+#FFE2AD
+
+# {
+	background-color: #FFE2AD;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE2AD;
+	/*overflow: hidden;*/
+}
+
+/*#homelink {
+    background-color: #FFE2AD;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}*/
+
+#homeLogo {
+    display: flex;
+	flex-wrap: wrap;  
+}
+
+#logo {
+    justify-content: flex-start;
+    height: 25rem;
+    padding-left: 20%;
+}
+
+#topImage {   
+    height: 22rem;
+    width: 100%;
+    padding-left: 79.8%;
+}
+
+/* NAV BAR ################################################################*/
+ul {
+    display: flex;
+}
+
+li {
+    box-sizing: content-box;
+	list-style-type: none;
+	margin: 1rem;
+    
+	font-size: 2rem;
+}
+
+.navlink {
+    box-sizing: content-box;
+	list-style-type: none;
+	text-decoration: none;
+	background-color: #d03815;
+	color: black;
+}
+
+nav {
+    box-sizing: border-box;
+	width: auto;
+	background-color: #d03815;
+    margin-top: -3.6%;
+    padding-left: 6%;
+}
+
+#navlinks {
+    box-sizing: border-box;
+	margin-left: 10rem;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #d03815;
+	color: black;
+	padding: 1.2rem;
+	font-size: 1.8rem;
+	border: none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	box-sizing: content-box;
+	display: none;
+	position: absolute;
+	background-color: #d03815;
+	min-width: 10rem;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	box-sizing: border-box;
+	color: black;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+	  background-color: #d03815;
+}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	  display: block;
+}  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+	  background-color: #d03815;
+}
+
+
+/* HOME */
+#homepage {
+    height: 100vh;
+    background-color: #FFE2AD;
+}
+
+#homeparagraph {
+	margin-left: 30%;
+	margin-top: 10%;
+	margin-right: 30%;
+	font-size: 1.5rem;
+}
+
+
+/* Officers & Members */
+#officers {
+	height: 100vh;
+	width: 100%;
+	background-color: #FFE2AD;
+}
+
+#officerstitle {
+	margin-left: 40%;
+	margin-top: 15%;
+	font-size: 2rem;
+}
+
+#officerslist {
+	margin-left: 43%;
+	margin-top: 2.5%;
+	font-size: 1.5rem;
+}
+
+
+/* Local Membership */
+#membership {
+	height: 100vh;
+	padding-top: 2%;
+}
+
+#localtitle {
+	margin-left: 2%;
+	font-size: 2.5rem;
+}
+
+#localbenefits {
+	font-size: 2rem;
+	margin-left: 2%;
+}
+
+.lmemberlist {
+	margin-left: 2%;
+	font-size: 1.5rem;
+	list-style-type: disc;
+}
+
+#localfee {
+	margin-left: 40%;
+}
+
+
+/* National Membership
+#nationalmembership {
+	height: 100vh;
+	background-color: #FFE2AD;
+}
+
+#nationaltitle {
+	margin-left: 2%;
+}
+*/
+
+
+/* Payroll Certification */
+#certification {
+	height: 100vh;
+	background-color: #FFE2AD;
+}
+
+#payrolltitle {
+	margin-left: 2%;
+	font-size: 2rem;
+}
+
+#certinfo {
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-right: 30%;
+	font-size: 1.5rem;
+}
+
+
+/* Scholarship */
+#scholarship {
+	height: 100vh;
+	background-color: #FFE2AD;
+}
+
+#scholartitle {
+	margin-left: 2%;
+	font-size: 2rem;
+}
+
+#scholarshipinfo {
+	margin-left: 30%;
+	margin-top: 10%;
+	margin-right: 30%;
+	font-size: 1.5REM;
+}
+
+
+/* Useful Sites */
+#sites {
+	height: 100vh;
+	background-color: #FFE2AD;
+}
+
+#sitestitle {
+	margin-left: 2%;
+	font-size: 2rem;
+}
+
+#sitesbox {
+	margin-top: 4%;
+}
+
+.websites {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: -1%;
+	font-size: 1.2rem;
+	list-style-type: disc; 
+}
+
+
+/* Job Board */
+#jobs {
+	height: 100vh;
+	background-color: #FFE2AD;
+	margin-top: 5%;
+}
+
+#jobtitle {
+	margin-left: 2%;
+	margin-top: 10%;
+	font-size: 2.5rem;
+}
+
+#jobboard {
+	margin-left: 2%;
+}
+
+
+/* Community Involvement */
+#community {
+	height: 100vh;
+	background-color: #FFE2AD;
+}
+
+#communitytitle {
+	margin-left: 20%;
+	margin-top: 5%;
+	font-size: 1.5rem;
+}
+
+.charities {
+	height: 200px;
+	width: 250px;
+}
+
+.logos {
+	width: 100%;
+	height: auto;
+	margin-left: 325%;
+}
+
+#communitydescript {
+	margin-top: 10%;
+}
+
+.charitytext {
+	margin-left: 30%;
+	margin-top: -5%;
+	margin-right: 30%;
+	font-size: 1.5rem;
+}
+
+
+/* Sponsors */
+#chaptersponsors {
+	display: flex;	
+	align-items: center;
+}
+
+.sponsorlink {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
